@@ -1,17 +1,14 @@
 //Exercise 1: Implementing the Singleton Pattern
 
-//Logger class
 class Logger {
     private static Logger instance;
 
-    //Logger constructor
     private Logger(){
         System.out.println("Logger Instance Created");
     }
 
     public static Logger getInstance() {
 
-        //Double-Checked Locking
         if(instance == null) {
             synchronized(Logger.class) {
                 if(instance == null) {
@@ -22,7 +19,6 @@ class Logger {
         return instance;
     }
 
-    //method to print log message
     public void log(String message) {
         System.out.println("LOG: " + message);
     }

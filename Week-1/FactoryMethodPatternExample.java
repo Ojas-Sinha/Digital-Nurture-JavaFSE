@@ -1,3 +1,5 @@
+//Exercise 2: Implementing the Factory Method Pattern
+
 interface Document {
     void open();
 }
@@ -65,5 +67,5 @@ public class FactoryMethodPatternExample {
         Document excel = excelFactory.createDocument();
         excel.open();
     }
-    
+
 }
