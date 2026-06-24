@@ -1,3 +1,5 @@
+//Exercise 6: Implementing the Proxy Pattern
+
 interface Image {
     void display();
 }
