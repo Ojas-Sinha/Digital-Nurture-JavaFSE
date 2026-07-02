@@ -1,3 +1,4 @@
+//Exercise 2: E-commerce Platform Search Function
 /*
 Big O notation measures how the execution time of an algorithm grows as the input size (n) increases.
 Linear Search

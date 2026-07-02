@@ -1,4 +1,4 @@
-
+//Exercise 1: Inventory Management System
 /* 
 In a warehouse inventory system, thousands of products may be stored. Efficient data structures and algorithms 
 store large amounts of product data efficiently and perform fast searching, insertion, updating, and deletion. 
