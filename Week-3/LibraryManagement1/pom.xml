@@ -58,13 +58,6 @@
         <artifactId>aspectjweaver</artifactId>
         <version>1.9.22.1</version>
     </dependency>
-    
-    <!-- Spring Web MVC -->
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-webmvc</artifactId>
-        <version>5.3.30</version>
-    </dependency>
   </dependencies>
 
   <build>
