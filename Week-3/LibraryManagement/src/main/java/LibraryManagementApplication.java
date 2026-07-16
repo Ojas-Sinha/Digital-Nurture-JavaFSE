@@ -1,6 +1,5 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.library.repository.BookRepository;
 import com.library.service.BookService;
 
 public class LibraryManagementApplication {
@@ -10,10 +9,7 @@ public class LibraryManagementApplication {
 		
 		BookService service = context.getBean("bookService", BookService.class);
 
-        BookRepository repository = context.getBean("bookRepository", BookRepository.class);
-
         service.displayService();
-        repository.displayRepository();
 
 	}
 
