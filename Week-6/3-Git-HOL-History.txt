@@ -1,0 +1,16 @@
+    1  git branch GitNewBranch
+    2  git branch -a
+    3  git checkout GitNewBranch
+    4  git branch
+    5  echo "This file is created in GitNewBranch" > branch.txt
+    6  git add branch.txt
+    7  git commit -m "Added branch.txt in GitNewBranch"
+    8  git status
+    9  git checkout master
+   10  git diff master GitNewBranch
+   11  git merge GitNewBranch
+   12  git log --oneline --graph --decorate
+   13  git branch -d GitNewBranch
+   14  git branch
+   15  git push origin master
+   16  history > 3-Git-HOL-History.txt

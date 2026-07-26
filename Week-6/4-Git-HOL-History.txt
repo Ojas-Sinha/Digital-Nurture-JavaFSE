@@ -1,0 +1,24 @@
+    1  git status
+    2  git branch GitWork
+    3  git checkout GitWork
+    4  echo "<message>Hello from GitWork Branch</message>" > hello.xml
+    5  git status
+    6  git add hello.xml
+    7  git commit -m "Added hello.xml in GitWork branch"
+    8  git checkout master
+    9  echo "<message>Hello from Master Branch</message>" > hello.xml
+   10  git add hello.xml
+   11  git commit -m "Added hello.xml in master"
+   12  git log --oneline --graph --decorate --all
+   13  git diff master GitWork
+   14  git merge GitWork
+   15  cat hello.xml
+   16  git add hello.xml
+   17  git commit -m "Resolved merge conflict"
+   18  notepad .gitignore
+   19  git add .gitignore
+   20  git commit -m "Updated .gitignore"
+   21  git branch -a
+   22  git branch -d GitWork
+   23  git log --oneline --graph --decorate
+   24  history > 4-Git-HOL-History.txt

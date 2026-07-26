@@ -1,0 +1,17 @@
+    1  touch error.log
+    2  echo "This is a log file" > error.log
+    3  mkdir log
+    4  echo "Log Data" > log/output.txt
+    5  touch .gitignore
+    6  notepad .gitignore
+    7  git status
+    8  git add .gitignore
+    9  git commit -m "Added gitignore"
+   10  git push origin master
+   11  git status --ignored
+   12  git add .
+   13  git commit -m "updated file"
+   14  git push origin master
+   15  git status
+   16  git status --ignored
+   17  history > 2-Git-HOL-History.txt

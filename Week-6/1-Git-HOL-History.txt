@@ -1,0 +1,25 @@
+    1  git --version
+    2  git config --global user.name "Ojas Sinha"
+    3  git config --global user.email "ojassinha14@gmail.com"
+    4  git config --global --list
+    5  notepad++
+    6  git init GitDemo
+    7  cd D:/
+    8  cd Digital-Nurture-Java-FSE
+    9  cd Digital-Nurture-JavaFSE
+   10  cd Week-6
+   11  git init GitDemo
+   12  cd GitDemo
+   13  ls -al
+   14  echo "Welcome to the version control" > welcome.txt
+   15  ls -al
+   16  cat welcome.txt
+   17  git status
+   18  git add welcome.txt
+   19  git status
+   20  git commit -m "Added welcome.txt"
+   21  git status
+   22  git remote add origin https://github.com/Ojas-Sinha/GitDemo.git
+   23  git pull origin master
+   24  git push origin master
+   25  history > 1-Git-HOL-History.txt
